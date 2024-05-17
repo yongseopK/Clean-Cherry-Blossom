@@ -1,0 +1,120 @@
+.map-area {
+  position: relative;
+
+  .btn-filter-group {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    .trash-can-dropdown {
+      position: relative;
+
+      .btn-trash-can {
+        font-size: 2em;
+        color: #fff;
+
+        width: 50px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #000;
+        cursor: pointer;
+      }
+
+      .trash-can-dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        padding: 10px 0;
+        min-width: 150px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+        z-index: 999;
+
+        &.active {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(0);
+        }
+
+        li {
+          padding: 10px 20px;
+          font-size: 16px;
+          color: #333;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          z-index: 999;
+
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          &:hover {
+            background-color: #f1f1f1;
+          }
+        }
+      }
+    }
+
+    .cherry-blossom-dropdown {
+      position: relative;
+
+      .btn-flower {
+        font-size: 2em;
+        color: #fff;
+
+        width: 50px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #000;
+        cursor: pointer;
+      }
+
+      .cherry-blossom-dropdown-menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        padding: 10px 0;
+        min-width: 150px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+        z-index: 999;
+
+        &.active {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(0);
+        }
+
+        li {
+          padding: 10px 20px;
+          font-size: 16px;
+          color: #333;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          z-index: 999;
+
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          &:hover {
+            background-color: #f1f1f1;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+// AdminReportList.scss
+
+.report-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .MuiDataGrid-root {
+    width: 100%;
+    max-width: 1200px; // 원하는 최대 너비 설정
+  }
+}
