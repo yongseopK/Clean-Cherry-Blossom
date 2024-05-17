@@ -48,7 +48,6 @@
     <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white">
     <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white">
     <img src="https://img.shields.io/badge/Spring Security-6DB340?style=for-the-badge&logo=SpringSecurity&logoColor=white">
-    <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white">
 </span>
 
 #### Frontend
@@ -60,5 +59,12 @@
     <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=white">
     <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white">
 </span>
+
+#### Test
+<span>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white">
+  <img src="https://img.shields.io/badge/Junit5-6DB340?style=for-the-badge&logo=Junit5&logoColor=white">
+</span>
+  
 
 ## API 명세서와 화면 구성은 각 리포지토리의 README 파일에 기술되어있습니다!
