@@ -1,0 +1,89 @@
+/* MyInfo.scss */
+
+.info-component {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .info-form {
+    width: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+
+    .sns-login-badge {
+      width: 30px;
+      object-fit: cover;
+    }
+
+    .email-container input[disabled],
+    .role-container input[disabled],
+    .name-container input[disabled] {
+      cursor: no-drop;
+      background-color: #f4f4f4;
+    }
+
+    .info-div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px 0;
+
+      .info-des {
+        font-size: 1.4em;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+
+      & input {
+        width: 100%;
+        height: 40px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        border: 1px solid #888888;
+        padding: 0 0 0 15px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .error-message {
+        color: red;
+        font-size: 0.9em;
+        margin-top: 5px;
+      }
+    }
+
+    .button-group {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      width: 45%;
+    }
+
+    .withdrawal {
+      margin: 40px auto 0 auto;
+
+      & p {
+        color: #888888;
+        cursor: pointer;
+        text-decoration-line: underline;
+        font-size: 0.8em;
+      }
+    }
+
+    .sns-user-description {
+      margin-top: 10px;
+      text-align: center;
+      font-weight: 700;
+    }
+  }
+}
